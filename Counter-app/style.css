@@ -1,0 +1,47 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    padding: 30px;
+    background-color: blue;
+}
+button{
+    padding: 1rem 2rem;
+    cursor: pointer;
+    width: 300px;
+    display:block;
+    margin-top: 15px;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    border-radius: 5%;
+    font-size: 15px;
+    transition: ease-in 0.2s ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#increment-btn{
+    background-color: green;
+ 
+}
+#save-btn{
+    background-color: red;
+}
+button:hover{
+    opacity: 0.8;
+}
+p{
+    font-size: 20px;
+}
+button::after{
+    padding: 0.9rem 1.9rem;
+}

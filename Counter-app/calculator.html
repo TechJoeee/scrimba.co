@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+<body>
+    <span id="num1-el"></span>
+    <span id="num2-el"></span>
+    <br>
+    <button onclick="add()">add</button>
+    <button onclick="subtract()">Subtract</button>
+    <button onclick="divide()">Divide</button>
+    <button onclick="multiply()">Multiple</button>
+    <span id="sum-el">Sum :</span>
+
+    <script>
+
+        let num1 = 8
+        let num2 = 2
+        let sum = document.getElementById('sum-el')
+        document.getElementById('num1-el').innerText = num1
+        document.getElementById('num2-el').innerText = num2
+
+        function add(){
+           let count = num1 + num2 
+            sum.innerText ='sum = ' + count 
+
+        }
+        function subtract(){
+            let count = num1 - num2
+            sum.innerText ='sum = ' + count 
+        }
+        function divide(){
+             let count = num1 / num2
+            sum.innerText ='sum = ' + count 
+        }
+        function multiply(){
+             let count = num1 *num2
+            sum.innerText ='sum = ' + count 
+        }
+    </script>
+    
+</body>
+</html>
