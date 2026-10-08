@@ -1,0 +1,63 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    
+}
+.container{
+    background-color: rgb(1, 5, 8);
+    padding: 60px 35px 100px 35px;
+    justify-content: start;
+    color:white;
+    border-radius: 8px;
+}
+p{
+    color: grey;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.text{
+    color: rgb(34, 131, 63);
+}
+h3{
+    font-size: 35px;
+    margin-bottom: -12px;
+    font-family:cursive;
+}
+.ans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap :40px;
+    margin-top: 40px;
+}
+#pass1 ,#pass2{
+    background-color: rgb(8, 11, 14);
+    padding: 10px 60px;
+    display: inline-block;
+    font-size: 15px;
+    color: rgb(34, 131, 63);
+    text-align: center;
+    width: 70px;
+    height: 20px;
+    word-wrap: break-all;
+    border-radius: 7%;
+    margin-top: 20px;
+}
+button{
+    border: none;
+    font-size: 18px;
+    color: white;
+    font-family: cursive;
+    padding: 13px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    background: rgb(45, 151, 62);
+    transition: ease 0.3s background-color;
+}
+button:hover{
+    background-color: rgb(34, 131, 63);
+}
+
